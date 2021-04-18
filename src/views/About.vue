@@ -1,19 +1,14 @@
 <!--|== Template =============================================================================== -->
 <template>
-  <section class="app">
-    <img alt="Vue logo" src="./assets/img/logo.png" />
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+  <section class="about">
+    <h1>About</h1>
   </section>
 </template>
 
 <!--|== Scripts ================================================================================ -->
 <script>
 export default {
-  name: 'app',
+  name: 'about-page',
 
   props: {},
 
@@ -49,7 +44,6 @@ export default {
 
 <!--|== CSS ==================================================================================== -->
 <style lang="scss">
-.app {
-  text-align: center;
+.about {
 }
 </style>

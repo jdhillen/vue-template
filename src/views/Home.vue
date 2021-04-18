@@ -1,23 +1,22 @@
 <!--|== Template =============================================================================== -->
 <template>
-  <section class="app">
-    <img alt="Vue logo" src="./assets/img/logo.png" />
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+  <section class="home">
+    <hello-world />
   </section>
 </template>
 
 <!--|== Scripts ================================================================================ -->
 <script>
+import HelloWorld from '../components/HelloWorld.vue';
+
 export default {
-  name: 'app',
+  name: 'home-page',
 
   props: {},
 
-  components: {},
+  components: {
+    HelloWorld
+  },
 
   data() {
     return {};
@@ -49,7 +48,6 @@ export default {
 
 <!--|== CSS ==================================================================================== -->
 <style lang="scss">
-.app {
-  text-align: center;
+.home {
 }
 </style>

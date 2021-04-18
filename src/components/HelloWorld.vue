@@ -1,32 +1,75 @@
+<!--|== Template =============================================================================== -->
 <template>
-  <h1>{{ msg }}</h1>
+  <section class="index">
+    <h1>{{ msg }}</h1>
 
-  <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">
-      Vite Documentation
-    </a>
-    |
-    <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
-  </p>
+    <p>
+      <a href="https://vitejs.dev/guide/features.html" target="_blank">
+        Vite Documentation
+      </a>
+      |
+      <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
+    </p>
+    <button @click="setCount">Count: {{ count }}</button>
 
-  <button @click="state.count++">count is: {{ state.count }}</button>
-  <p>
-    Edit
-    <code>components/HelloWorld.vue</code> to test hot module replacement.
-  </p>
+    <p>
+      Edit
+      <code>components/HelloWorld.vue</code> to test hot module replacement.
+    </p>
+  </section>
 </template>
 
-<script setup>
-import { defineProps, reactive } from 'vue'
+<!--|== Scripts ================================================================================ -->
+<script>
+import { mapState, mapActions } from 'vuex';
 
-defineProps({
-  msg: String
-})
+export default {
+  name: 'index-page',
 
-const state = reactive({ count: 0 })
+  props: {
+    msg: {
+      type: String,
+      required: false,
+      default: 'Hello There!'
+    }
+  },
+
+  components: {},
+
+  data() {
+    return {};
+  },
+
+  beforeCreate() {},
+
+  created() {},
+
+  beforeMount() {},
+
+  mounted() {},
+
+  beforeUpdate() {},
+
+  updated() {},
+
+  beforeUnmount() {},
+
+  unmounted() {},
+
+  computed: {
+    ...mapState(['count'])
+  },
+
+  methods: {
+    ...mapActions(['setCount'])
+  },
+
+  watch: {}
+};
 </script>
 
-<style scoped>
+<!--|== CSS ==================================================================================== -->
+<style lang="scss">
 a {
   color: #42b983;
 }

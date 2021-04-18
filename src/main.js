@@ -1,4 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+// ==|== Imports ===================================================================================
+import { createApp } from 'vue';
+import App from './App.vue';
+import store from './store';
+import router from './router';
 
-createApp(App).mount('#app')
+// ==|== Create App ================================================================================
+createApp(App).use(store).use(router).mount('#app');

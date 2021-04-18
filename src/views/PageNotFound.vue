@@ -1,19 +1,14 @@
 <!--|== Template =============================================================================== -->
 <template>
-  <section class="app">
-    <img alt="Vue logo" src="./assets/img/logo.png" />
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+  <section class="page-not-found">
+    <h1>404</h1>
   </section>
 </template>
 
 <!--|== Scripts ================================================================================ -->
 <script>
 export default {
-  name: 'app',
+  name: 'page-not-found-page',
 
   props: {},
 
@@ -49,7 +44,6 @@ export default {
 
 <!--|== CSS ==================================================================================== -->
 <style lang="scss">
-.app {
-  text-align: center;
+.page-not-found {
 }
 </style>
