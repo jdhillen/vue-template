@@ -11,13 +11,13 @@ export default createStore({
   // ==|== Actions =================================================================================
   actions: {
     setCount({ commit }) {
-      commit('setCount');
+      commit('SET_COUNT');
     }
   },
 
   // ==|== Mutations ===============================================================================
   mutations: {
-    setCount(state) {
+    SET_COUNT(state) {
       state.count = state.count + 1;
     }
   },
