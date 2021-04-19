@@ -69,8 +69,4 @@ export default {
 </script>
 
 <!--|== CSS ==================================================================================== -->
-<style lang="scss">
-a {
-  color: #42b983;
-}
-</style>
+<style lang="scss" scoped></style>

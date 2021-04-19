@@ -43,7 +43,7 @@ export default {
 </script>
 
 <!--|== CSS ==================================================================================== -->
-<style lang="scss">
+<style lang="scss" scoped>
 .about {
 }
 </style>
