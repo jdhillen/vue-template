@@ -52,8 +52,4 @@ export default {
 .app {
   text-align: center;
 }
-
-a {
-  color: #42b983;
-}
 </style>

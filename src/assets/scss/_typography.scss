@@ -1,0 +1,26 @@
+// =================================================================================================
+// ---- Typography ----
+// =================================================================================================
+
+// ==|== Open Sans =================================================================================
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url('@/assets/fonts/open-sans/open_sans_regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url('@/assets/fonts/open-sans/open_sans_light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url('@/assets/fonts/open-sans/open_sans_bold.woff2') format('woff2');
+}
+
+// ==|== Helper Classes ============================================================================
+.smooth {
+  -webkit-text-stroke: 0.35px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
