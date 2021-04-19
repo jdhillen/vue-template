@@ -23,6 +23,8 @@
 <script>
 import { mapState, mapActions } from 'vuex';
 import { demoFunction } from '../filters';
+// ==|== Imports ===================================================================================
+import Service from '../services';
 
 export default {
   name: 'index-page',
@@ -50,6 +52,11 @@ export default {
   mounted() {
     // Example of a untility function that replaces Filters in Vue 3
     demoFunction();
+
+    // Example of a Service to make an API call
+    Service.getContact().then((response) => {
+      console.log(response.data);
+    });
   },
 
   beforeUpdate() {},
