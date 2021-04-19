@@ -22,6 +22,7 @@
 <!--|== Scripts ================================================================================ -->
 <script>
 import { mapState, mapActions } from 'vuex';
+import { demoFunction } from '../filters';
 
 export default {
   name: 'index-page',
@@ -46,7 +47,10 @@ export default {
 
   beforeMount() {},
 
-  mounted() {},
+  mounted() {
+    // Example of a untility function that replaces Filters in Vue 3
+    demoFunction();
+  },
 
   beforeUpdate() {},
 
