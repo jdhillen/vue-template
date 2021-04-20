@@ -1,26 +1,21 @@
 // ==|== Imports ===================================================================================
 import { createRouter, createWebHistory } from 'vue-router';
 
-// ==|== Pages =====================================================================================
-import Home from '../views/Home.vue';
-import About from '../views/About.vue';
-import PageNotFound from '../views/PageNotFound.vue';
-
 // ==|== Routes ====================================================================================
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: () => import('../views/Home.vue')
   },
   {
     path: '/about',
     name: 'About',
-    component: About
+    component: () => import('../views/About.vue')
   },
   {
     path: '/:catchAll(.*)',
-    component: PageNotFound
+    component: () => import('../views/PageNotFound.vue')
   }
 ];
 

@@ -1,6 +1,7 @@
 <!--|== Template =============================================================================== -->
 <template>
   <section class="app">
+    <h1>{{ title }}</h1>
     <img alt="Vue logo" src="./assets/img/logo.png" />
     <div id="nav">
       <router-link to="/">Home</router-link> |
@@ -20,7 +21,9 @@ export default {
   components: {},
 
   data() {
-    return {};
+    return {
+      title: import.meta.env.VITE_APP_TITLE
+    };
   },
 
   beforeCreate() {},
