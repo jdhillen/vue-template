@@ -2,6 +2,7 @@
 <template>
   <section class="page-not-found">
     <h1>404</h1>
+    <router-link :to="{ name: 'Home' }">Back to the home page</router-link>
   </section>
 </template>
 
