@@ -2,16 +2,20 @@
 <template>
   <section class="index">
     <h1>{{ msg }}</h1>
-
     <p>
-      <a href="https://vitejs.dev/guide/features.html" target="_blank">
+      <a
+        href="https://vitejs.dev/guide/features.html"
+        target="_blank"
+        rel="noopener"
+      >
         Vite Documentation
       </a>
       |
-      <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
+      <a href="https://v3.vuejs.org/" target="_blank" rel="noopener"
+        >Vue 3 Documentation</a
+      >
     </p>
     <button @click="setCount">Count: {{ count }}</button>
-
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test hot module replacement.
@@ -23,7 +27,6 @@
 <script>
 import { mapState, mapActions } from 'vuex';
 import { demoFunction } from '../filters';
-// ==|== Imports ===================================================================================
 import Service from '../services';
 
 export default {
