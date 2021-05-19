@@ -2,7 +2,7 @@
 
 _All notable changes to this project will be documented in this file._
 
-## [v0.0.0][] - 2021-05-19
+## [v0.0.0][https://github.com/jdhillen/vue-template/releases/tag/0.0.0] - 2021-05-19
 
 ### Added
 
