@@ -2,7 +2,7 @@
 <template>
   <teleport to="head">
     <!-- Primary Meta Tags -->
-    <title>Website - {{ title }}</title>
+    <title>{{ name }} - {{ title }}</title>
     <meta name="title" :content="title" />
     <meta name="description" :content="description" />
 
@@ -38,6 +38,7 @@ export default {
 
   data() {
     return {
+      name: import.meta.env.VITE_APP_NAME,
       url: import.meta.env.VITE_APP_URL + this.$route.path,
       title: this.data.title,
       description: this.data.description, // 155 Characters
