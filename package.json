@@ -9,6 +9,7 @@
   "dependencies": {
     "axios": "0.21.1",
     "vue": "3.0.11",
+    "vue-meta": "2.4.0",
     "vue-router": "4.0.8",
     "vuex": "4.0.1"
   },

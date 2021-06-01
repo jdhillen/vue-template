@@ -1,5 +1,6 @@
 <!--|== Template =============================================================================== -->
 <template>
+  <MetaData :data="metaData" />
   <section class="home">
     <hello-world />
   </section>
@@ -7,6 +8,7 @@
 
 <!--|== Scripts ================================================================================ -->
 <script>
+import MetaData from '../components/global/MetaData.vue';
 import HelloWorld from '../components/HelloWorld.vue';
 
 export default {
@@ -15,11 +17,18 @@ export default {
   props: {},
 
   components: {
+    MetaData,
     HelloWorld
   },
 
   data() {
-    return {};
+    return {
+      metaData: {
+        title: 'Home',
+        description: 'This is the description for the Home page',
+        image: 'https://via.placeholder.com/1500x780'
+      }
+    };
   },
 
   beforeCreate() {},

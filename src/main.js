@@ -5,4 +5,7 @@ import store from './store';
 import router from './router';
 
 // ==|== Create App ================================================================================
-createApp(App).use(store).use(router).mount('#app');
+const app = createApp(App);
+app.use(store);
+app.use(router);
+app.mount('#app');
