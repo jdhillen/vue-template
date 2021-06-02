@@ -1,8 +1,10 @@
-# [Vue Template][] - CHANGELOG
+# [Vue Template](https://github.com/jdhillen/vue-template) - CHANGELOG
 
-_All notable changes to this project will be documented in this file._
+> All notable changes to this project will be documented in this file.
 
-## [v0.0.1][https://github.com/jdhillen/vue-template/releases/tag/0.0.1] - 2021-06-02
+---
+
+## [v0.0.1](https://github.com/jdhillen/vue-template/releases/tag/0.0.1) - 2021-06-02
 
 ### Added
 
@@ -10,7 +12,7 @@ _All notable changes to this project will be documented in this file._
 
 ---
 
-## [v0.0.0][https://github.com/jdhillen/vue-template/releases/tag/0.0.0] - 2021-05-19
+## [v0.0.0](https://github.com/jdhillen/vue-template/releases/tag/0.0.0) - 2021-05-19
 
 ### Added
 
@@ -21,6 +23,3 @@ _All notable changes to this project will be documented in this file._
 _The format is based on [Keep a CHANGELOG](http://keepachangelog.com)_
 
 ---
-
-[vue template]: https://github.com/jdhillen/vue-template
-[v0.0.0]: https://github.com/jdhillen/vue-template/releases/
