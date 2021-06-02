@@ -4,6 +4,13 @@
 
 ---
 
+### Requirements
+
+- [Node.js](https://nodejs.org/en/) - v16.2.0
+- [yarn](https://yarnpkg.com/) - Strongly recommended over NPM
+
+---
+
 ### Installing
 
 ```bash
