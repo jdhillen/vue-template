@@ -22,7 +22,14 @@ const routes = [
 // ==|== Router ====================================================================================
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
+  scrollBehavior() {
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { top: 0 };
+    }
+  }
 });
 
 // ==|== Export ====================================================================================
