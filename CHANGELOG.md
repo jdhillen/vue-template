@@ -19,6 +19,10 @@
 
 - vue-meta
 
+### Fixed
+
+- .prettierrc.json changed to .prettierrc
+
 ---
 
 ## [v0.0.2](https://github.com/jdhillen/vue-template/releases/tag/0.0.2) - 2021-07-13
