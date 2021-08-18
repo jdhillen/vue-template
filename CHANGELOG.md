@@ -4,6 +4,23 @@
 
 ---
 
+## [v0.0.3](https://github.com/jdhillen/vue-template/releases/tag/0.0.3) - 2021-08-18
+
+### Update
+
+- vue to v3.2.4
+- vue-router to v4.0.11
+- @vitejs/plugin-vue to v1.4.0
+- @vue/compiler-sfc to v3.2.4
+- sass to v1.38.0
+- vite to v2.5.0
+
+### Removed
+
+- vue-meta
+
+---
+
 ## [v0.0.2](https://github.com/jdhillen/vue-template/releases/tag/0.0.2) - 2021-07-13
 
 ### Update
