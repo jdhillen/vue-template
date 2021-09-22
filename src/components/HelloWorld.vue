@@ -26,8 +26,8 @@
 <!--|== Scripts ================================================================================ -->
 <script>
 import { mapState, mapActions } from 'vuex';
-import { demoFunction } from '../filters';
-import Service from '../services';
+import { demoFunction } from '@/filters';
+import Service from '@/services';
 
 export default {
   name: 'index-page',

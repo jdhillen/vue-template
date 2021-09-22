@@ -47,7 +47,7 @@
 
 <!--|== Scripts ================================================================================ -->
 <script>
-import MetaData from '../components/global/MetaData.vue';
+import MetaData from '@/components/global/MetaData.vue';
 
 export default {
   name: 'about-page',
