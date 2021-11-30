@@ -4,6 +4,18 @@
 
 ---
 
+## [v0.0.5](https://github.com/jdhillen/vue-template/releases/tag/0.0.5) - 2021-11-30
+
+### Update
+
+- Package updates to latest versions
+
+### Removed
+
+- Yarn for NPM
+
+---
+
 ## [v0.0.4](https://github.com/jdhillen/vue-template/releases/tag/0.0.4) - 2021-09-22
 
 ### Update
