@@ -1,31 +1,28 @@
 // ==|== Imports ===================================================================================
-import { createStore } from 'vuex';
+import { defineStore } from 'pinia';
 
 // ==|== Store =====================================================================================
-export default createStore({
+export const useDefaultStore = defineStore('default', {
+
   // ==|== State ===================================================================================
-  state: {
-    count: 0
+  state: () => {
+    return {
+      count: 0,
+    }
   },
 
   // ==|== Actions =================================================================================
   actions: {
-    setCount({ commit }) {
-      commit('SET_COUNT');
+    increment() {
+      this.count++;
     }
   },
 
-  // ==|== Mutations ===============================================================================
-  mutations: {
-    SET_COUNT(state) {
-      state.count = state.count + 1;
-    }
-  },
 
   // ==|== Getters =================================================================================
   getters: {
-    count: (state) => {
-      return state.count;
-    }
-  }
-});
+    doubleCount: (state) => state.count * 2,
+  },
+
+})
+

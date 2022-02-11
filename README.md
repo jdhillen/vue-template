@@ -6,8 +6,8 @@
 
 ### Requirements
 
-- [Node.js](https://nodejs.org/en/) - v16.2.0
-- [yarn](https://yarnpkg.com/) - Strongly recommended over NPM
+- [Node.js](https://nodejs.org/en/) - v16.14.0
+- [npm](https://www.npmjs.com/) - v8.5.0
 
 ---
 
@@ -22,10 +22,10 @@ git clone https://github.com/jdhillen/vue-template.git
 cd vue-template
 
 # install dependencies
-yarn install
+npm install
 
 # serve application at localhost:3000
-yarn dev
+npm run dev
 ```
 
 ---

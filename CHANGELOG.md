@@ -4,6 +4,30 @@
 
 ---
 
+## [v0.0.4](https://github.com/jdhillen/vue-template/releases/tag/0.0.4) - 2022-02-11
+
+### Added
+
+- pinia v2.0.11
+- engines to package.json - node v16.14.0
+- engines to package.json - npm v8.5.0
+- @ paths to all imports
+
+### Update
+
+- vue to v3.2.20
+- vue-router to v4.0.12
+- @vitejs/plugin-vue to v2.2.0
+- @vue/compiler-sfc to v3.2.30
+- sass to v1.49.7
+- vite to v2.8.1
+
+### Removed
+
+- vuex
+
+---
+
 ## [v0.0.3](https://github.com/jdhillen/vue-template/releases/tag/0.0.3) - 2021-08-18
 
 ### Update

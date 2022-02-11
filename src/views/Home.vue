@@ -8,8 +8,8 @@
 
 <!--|== Scripts ================================================================================ -->
 <script>
-import MetaData from '../components/global/MetaData.vue';
-import HelloWorld from '../components/HelloWorld.vue';
+import MetaData from '@/components/global/MetaData.vue';
+import HelloWorld from '@/components/HelloWorld.vue';
 
 export default {
   name: 'home-page',

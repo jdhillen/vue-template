@@ -11,7 +11,7 @@
 
 <!--|== Scripts ================================================================================ -->
 <script>
-import MetaData from '../components/global/MetaData.vue';
+import MetaData from '@/components/global/MetaData.vue';
 
 export default {
   name: 'page-not-found-page',
