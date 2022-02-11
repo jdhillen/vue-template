@@ -4,7 +4,7 @@
 
 ---
 
-## [v0.0.4](https://github.com/jdhillen/vue-template/releases/tag/0.0.4) - 2022-02-11
+## [v0.0.6](https://github.com/jdhillen/vue-template/releases/tag/0.0.6) - 2022-02-11
 
 ### Added
 
@@ -25,6 +25,31 @@
 ### Removed
 
 - vuex
+
+---
+
+## [v0.0.5](https://github.com/jdhillen/vue-template/releases/tag/0.0.5) - 2021-11-30
+
+### Update
+
+- Package updates to latest versions
+
+### Removed
+
+- Yarn for NPM
+
+---
+
+## [v0.0.4](https://github.com/jdhillen/vue-template/releases/tag/0.0.4) - 2021-09-22
+
+### Update
+
+- Package updates to latest versions
+- Paths to use new @ alias
+
+### Fixed
+
+- @ alias in vite.config.js
 
 ---
 

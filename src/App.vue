@@ -11,7 +11,7 @@
     </div>
     <div class="row">
       <div class="twelve columns">
-        <img alt="Vue logo" src="./assets/img/logo.png" />
+        <img alt="Vue logo" src="@/assets/img/logo.png" />
       </div>
     </div>
     <div class="row">

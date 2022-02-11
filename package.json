@@ -1,6 +1,10 @@
 {
   "name": "vue-template",
-  "version": "0.0.3",
+  "version": "0.0.5",
+  "engines" : {
+    "npm": "8.1.4",
+    "node" : ">=17.1.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
