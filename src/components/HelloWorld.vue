@@ -15,7 +15,8 @@
         >Vue 3 Documentation</a
       >
     </p>
-    <button @click="setCount">Count: {{ count }}</button>
+    <button @click="increment()">Count: {{ count }}</button>
+    <p>Double: {{ doubleCount }}</p>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test hot module replacement.
@@ -25,9 +26,12 @@
 
 <!--|== Scripts ================================================================================ -->
 <script>
-import { mapState, mapActions } from 'vuex';
+import { mapState, mapActions } from 'pinia'
+import { useDefaultStore } from '@/store/DefaultStore';
 import { demoFunction } from '@/filters';
 import Service from '@/services';
+
+const defaultStore = useDefaultStore();
 
 export default {
   name: 'index-page',
@@ -71,11 +75,11 @@ export default {
   unmounted() {},
 
   computed: {
-    ...mapState(['count'])
+    ...mapState(useDefaultStore, ['count', 'doubleCount'])
   },
 
   methods: {
-    ...mapActions(['setCount'])
+    ...mapActions(useDefaultStore, ['increment'])
   },
 
   watch: {}
