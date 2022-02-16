@@ -1,18 +1,14 @@
 {
   "name": "vue-template",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "engines" : {
-    "npm": "8.1.4",
-    "node" : ">=17.1.0"
+    "npm": "8.5.0",
+    "node" : ">=16.14.0"
   },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
-  },
-  "engines": {
-    "node": "^16.14.0",
-    "npm": "^8.5.0"
   },
   "dependencies": {
     "axios": "^0.25.0",
