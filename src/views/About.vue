@@ -1,6 +1,5 @@
 <!--|== Template =============================================================================== -->
 <template>
-  <MetaData :data="metaData" />
   <section class="about row">
     <div class="twelve columns">
       <h1>About</h1>
@@ -47,7 +46,6 @@
 
 <!--|== Scripts ================================================================================ -->
 <script>
-import MetaData from '@/components/global/MetaData.vue';
 
 export default {
   name: 'about-page',
@@ -55,16 +53,10 @@ export default {
   props: {},
 
   components: {
-    MetaData
   },
 
   data() {
     return {
-      metaData: {
-        title: 'About',
-        description: 'This is the description for the About page',
-        image: 'https://via.placeholder.com/1500x780'
-      }
     };
   },
 
