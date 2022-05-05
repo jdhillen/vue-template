@@ -4,6 +4,25 @@
 
 ---
 
+## [v0.0.8](https://github.com/jdhillen/vue-template/releases/tag/0.0.8) - 2022-05-05
+
+### Update
+
+- axios => v0.27.2
+- pinia => v2.0.14
+- vue => v3.2.33
+- vue-router => v4.0.15
+- @vitejs/plugin-vue => v2.3.2
+- @vue/compiler-sfc => v3.2.33
+- sass => v1.51.0
+- vite => v2.9.8
+
+### Removed
+
+- MetaData component and moved all meta data to index.html
+
+---
+
 ## [v0.0.7](https://github.com/jdhillen/vue-template/releases/tag/0.0.7) - 2022-02-16
 
 ### Update
@@ -23,12 +42,12 @@
 
 ### Update
 
-- vue to v3.2.20
-- vue-router to v4.0.12
-- @vitejs/plugin-vue to v2.2.0
-- @vue/compiler-sfc to v3.2.30
-- sass to v1.49.7
-- vite to v2.8.1
+- vue => v3.2.20
+- vue-router => v4.0.12
+- @vitejs/plugin-vue => v2.2.0
+- @vue/compiler-sfc => v3.2.30
+- sass => v1.49.7
+- vite => v2.8.1
 
 ### Removed
 
@@ -65,12 +84,12 @@
 
 ### Update
 
-- vue to v3.2.4
-- vue-router to v4.0.11
-- @vitejs/plugin-vue to v1.4.0
-- @vue/compiler-sfc to v3.2.4
-- sass to v1.38.0
-- vite to v2.5.0
+- vue => v3.2.4
+- vue-router => v4.0.11
+- @vitejs/plugin-vue => v1.4.0
+- @vue/compiler-sfc => v3.2.4
+- sass => v1.38.0
+- vite => v2.5.0
 
 ### Removed
 
@@ -86,13 +105,13 @@
 
 ### Update
 
-- vue to v3.1.4
-- vue-router to v4.0.10
-- vuex to v4.0.2
-- @vitejs/plugin-vue to v1.2.5
-- @vue/compiler-sfc to v3.1.4
-- sass to v1.35.2
-- vite to v2.4.2
+- vue => v3.1.4
+- vue-router => v4.0.10
+- vuex => v4.0.2
+- @vitejs/plugin-vue => v1.2.5
+- @vue/compiler-sfc => v3.1.4
+- sass => v1.35.2
+- vite => v2.4.2
 
 ---
 
