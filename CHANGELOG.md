@@ -4,6 +4,18 @@
 
 ---
 
+## [v0.0.9](https://github.com/jdhillen/vue-template/releases/tag/0.0.9) - 2022-05-19
+
+### Update
+
+- npm => v8.3.1
+- vue => v3.2.34
+- @vitejs/plugin-vue => v2.3.3
+- @vue/compiler-sfc => v3.2.34
+- vite => v2.9.9
+
+---
+
 ## [v0.0.8](https://github.com/jdhillen/vue-template/releases/tag/0.0.8) - 2022-05-05
 
 ### Update
