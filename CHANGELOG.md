@@ -4,7 +4,7 @@
 
 ---
 
-## [v0.0.9](https://github.com/jdhillen/vue-template/releases/tag/0.0.9) - 2022-05-19
+## [v0.010](https://github.com/jdhillen/vue-template/releases/tag/0.0.10) - 2022-05-27
 
 ### Added
 
