@@ -10,18 +10,15 @@
 
 <!--|== Scripts ================================================================================ -->
 <script>
-
 export default {
   name: 'page-not-found-page',
 
   props: {},
 
-  components: {
-  },
+  components: {},
 
   data() {
-    return {
-    };
+    return {};
   },
 
   beforeCreate() {},

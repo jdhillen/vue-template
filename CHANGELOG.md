@@ -6,6 +6,21 @@
 
 ## [v0.0.9](https://github.com/jdhillen/vue-template/releases/tag/0.0.9) - 2022-05-19
 
+### Added
+
+- Prettier formatting scripts
+
+### Update
+
+- version => v0.0.10
+- vue => v3.2.36
+- @vue/compiler-sfc => v3.2.36
+- sass => v1.52.1
+
+---
+
+## [v0.0.9](https://github.com/jdhillen/vue-template/releases/tag/0.0.9) - 2022-05-19
+
 ### Update
 
 - npm => v8.3.1
