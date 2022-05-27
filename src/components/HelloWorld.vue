@@ -26,7 +26,7 @@
 
 <!--|== Scripts ================================================================================ -->
 <script>
-import { mapState, mapActions } from 'pinia'
+import { mapState, mapActions } from 'pinia';
 import { useDefaultStore } from '@/store/DefaultStore';
 import { demoFunction } from '@/filters';
 import Service from '@/services';

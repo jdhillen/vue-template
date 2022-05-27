@@ -3,12 +3,11 @@ import { defineStore } from 'pinia';
 
 // ==|== Store =====================================================================================
 export const useDefaultStore = defineStore('default', {
-
   // ==|== State ===================================================================================
   state: () => {
     return {
-      count: 0,
-    }
+      count: 0
+    };
   },
 
   // ==|== Actions =================================================================================
@@ -18,11 +17,8 @@ export const useDefaultStore = defineStore('default', {
     }
   },
 
-
   // ==|== Getters =================================================================================
   getters: {
-    doubleCount: (state) => state.count * 2,
-  },
-
-})
-
+    doubleCount: (state) => state.count * 2
+  }
+});

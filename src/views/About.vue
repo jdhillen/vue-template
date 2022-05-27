@@ -46,18 +46,15 @@
 
 <!--|== Scripts ================================================================================ -->
 <script>
-
 export default {
   name: 'about-page',
 
   props: {},
 
-  components: {
-  },
+  components: {},
 
   data() {
-    return {
-    };
+    return {};
   },
 
   beforeCreate() {},
