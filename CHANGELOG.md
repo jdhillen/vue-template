@@ -4,6 +4,21 @@
 
 ---
 
+## [v0.0.11](https://github.com/jdhillen/vue-template/releases/tag/0.0.11) - 2022-07-14
+
+### Update
+
+- version => v0.0.11
+- pinia => v2.0.16
+- vue => v3.2.37
+- vue-router => v4.1.2
+- @vitejs/plugin-vue => v3.0.0
+- @vue/compiler-sfc => v3.2.37
+- sass => v1.53.0
+- vite => v3.0.0
+
+---
+
 ## [v0.0.10](https://github.com/jdhillen/vue-template/releases/tag/0.0.10) - 2022-05-27
 
 ### Added
