@@ -4,6 +4,25 @@
 
 ---
 
+## [v0.0.12](https://github.com/jdhillen/vue-template/releases/tag/0.0.12) - 2022-09-27
+
+### Added
+
+- .vscode to .gitignore
+
+### Update
+
+- version => v0.0.12
+- pinia => v2.0.22
+- vue => v3.2.39
+- vue-router => v4.1.5
+- @vitejs/plugin-vue => v3.1.0
+- @vue/compiler-sfc => v3.2.39
+- sass => v1.55.0
+- vite => v3.1.3
+
+---
+
 ## [v0.0.11](https://github.com/jdhillen/vue-template/releases/tag/0.0.11) - 2022-07-14
 
 ### Update
