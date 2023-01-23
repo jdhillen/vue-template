@@ -4,6 +4,23 @@
 
 ---
 
+## [v0.1.0](https://github.com/jdhillen/vue-template/releases/tag/0.1.0) - 2023-01-23
+
+### Update
+
+- version => v0.1.0
+- axios => v1.2.3
+- pinia => v2.0.29
+- vue => v3.2.12
+- vue-router => v4.1.6
+- @vitejs/plugin-vue => v4.0.0
+- @vue/compiler-sfc => v3.2.45
+- sass => v1.57.1
+- vite => v4.0.4
+- Changed mixins folder to composables
+
+---
+
 ## [v0.0.12](https://github.com/jdhillen/vue-template/releases/tag/0.0.12) - 2022-09-27
 
 ### Added
