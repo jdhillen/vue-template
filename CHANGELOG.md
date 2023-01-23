@@ -19,6 +19,10 @@
 - vite => v4.0.4
 - Changed mixins folder to composables
 
+### Removed
+
+- Filters folder
+
 ---
 
 ## [v0.0.12](https://github.com/jdhillen/vue-template/releases/tag/0.0.12) - 2022-09-27
