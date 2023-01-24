@@ -1,28 +1,23 @@
 <!--|== Template =============================================================================== -->
 <template>
-  <div class="app">
-    <SiteHeader />
-    <main>
-      <router-view />
-    </main>
-    <SiteFooter />
-  </div>
+  <footer class="footer">Copyright &copy; {{ useYear() }}</footer>
 </template>
 
 <!--|== Scripts ================================================================================ -->
 <script setup>
-import SiteHeader from '@/components/SiteHeader.vue';
-import SiteFooter from '@/components/SiteFooter.vue';
+import { useYear } from '@/composables/useYear';
 </script>
 
 <!--|== CSS ==================================================================================== -->
 <style lang="scss">
-.app {
-  flex: 1;
-  height: auto !important;
-  min-height: 100%;
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: $black;
+  color: $white;
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 </style>
