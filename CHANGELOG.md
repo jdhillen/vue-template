@@ -4,6 +4,28 @@
 
 ---
 
+## [v1.0.0](https://github.com/jdhillen/vue-template/releases/tag/1.0.0) - 2023-01-24
+
+### Added
+
+- meta title to html
+- useYear composable as an example
+- SiteHeader component
+- SiteFooter component
+- CSS to handle vertical scaling
+
+### Updated
+
+- Vue Composition API
+- Page names to include two names to prevent naming collisions
+- Router with new page names
+
+### Removed
+
+- Vue Options API
+
+---
+
 ## [v0.1.0](https://github.com/jdhillen/vue-template/releases/tag/0.1.0) - 2023-01-23
 
 ### Update

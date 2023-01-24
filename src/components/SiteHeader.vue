@@ -1,28 +1,25 @@
 <!--|== Template =============================================================================== -->
 <template>
-  <div class="app">
-    <SiteHeader />
-    <main>
-      <router-view />
-    </main>
-    <SiteFooter />
-  </div>
+  <nav class="nav">
+    <router-link :to="{ name: 'Home' }">Home</router-link> |
+    <router-link :to="{ name: 'About' }">About</router-link>
+  </nav>
 </template>
 
 <!--|== Scripts ================================================================================ -->
-<script setup>
-import SiteHeader from '@/components/SiteHeader.vue';
-import SiteFooter from '@/components/SiteFooter.vue';
-</script>
+<script setup></script>
 
 <!--|== CSS ==================================================================================== -->
 <style lang="scss">
-.app {
-  flex: 1;
-  height: auto !important;
-  min-height: 100%;
+.nav {
+  width: 100%;
+  height: 50px;
+  background-color: $black;
+  color: $white;
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 </style>
