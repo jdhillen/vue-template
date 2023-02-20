@@ -22,7 +22,6 @@
 <!--|== Scripts ================================================================================ -->
 <script setup>
 import HelloWorld from '@/components/HelloWorld.vue';
-
 const title = import.meta.env.VITE_APP_TITLE;
 </script>
 
