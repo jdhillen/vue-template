@@ -4,6 +4,20 @@
 
 ---
 
+## [v1.0.1](https://github.com/jdhillen/vue-template/releases/tag/1.0.1) - 2023-02-20
+
+### Update
+
+- version => v1.0.1
+- axios => v1.3.3
+- pinia => v2.0.31
+- vue => v3.2.47
+- @vue/compiler-sfc => v3.2.47
+- sass => v1.58.3
+- vite => v4.1.3
+
+---
+
 ## [v1.0.0](https://github.com/jdhillen/vue-template/releases/tag/1.0.0) - 2023-01-24
 
 ### Added
