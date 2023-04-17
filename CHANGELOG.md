@@ -16,6 +16,10 @@
 - sass => v1.62.0
 - Header and Footer backgrounds => white
 
+### Removed
+
+- normalize.scss (replaced with reset.scss)
+
 ---
 
 ## [v1.0.2](https://github.com/jdhillen/vue-template/releases/tag/1.0.2) - 2023-03-27
