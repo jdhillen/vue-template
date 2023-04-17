@@ -14,8 +14,8 @@
 .nav {
   width: 100%;
   height: 50px;
-  background-color: $black;
-  color: $white;
+  background-color: $white;
+  color: $black;
   display: flex;
   flex-direction: row;
   justify-content: center;

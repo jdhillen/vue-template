@@ -4,6 +4,20 @@
 
 ---
 
+## [v1.1.0](https://github.com/jdhillen/vue-template/releases/tag/1.1.0) - 2023-04-17
+
+### Update
+
+- version => v1.1.0
+- node => v18.16.0
+- npm => v9.6.4
+- axios => v1.3.5
+- pinia => v2.0.34
+- sass => v1.62.0
+- Header and Footer backgrounds => white
+
+---
+
 ## [v1.0.2](https://github.com/jdhillen/vue-template/releases/tag/1.0.2) - 2023-03-27
 
 ### Update
