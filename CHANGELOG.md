@@ -4,6 +4,22 @@
 
 ---
 
+## [v1.2.0](https://github.com/jdhillen/vue-template/releases/tag/1.2.0) - 2023-05-15
+
+### Update
+
+- version => v1.2.0
+- axios => v1.4.0
+- pinia => v2.0.36
+- vue => v3.3.2
+- vue-router => v4.2.0
+- @vitejs/plugin-vue => v4.2.3
+- @vue/compiler-sfc => v3.3.2
+- sass => v1.62.1
+- vite => v4.3.6
+
+---
+
 ## [v1.1.0](https://github.com/jdhillen/vue-template/releases/tag/1.1.0) - 2023-04-17
 
 ### Update
