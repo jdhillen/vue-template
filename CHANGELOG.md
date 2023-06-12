@@ -4,6 +4,24 @@
 
 ---
 
+## [v1.2.1](https://github.com/jdhillen/vue-template/releases/tag/1.2.1) - 2023-06-12
+
+### Update
+
+- version => v1.2.1
+- pinia => v2.1.3
+- vue => v3.3.4
+- vue-router => v4.2.2
+- @vue/compiler-sfc => v3.3.4
+- sass => v1.63.3
+- vite => v4.3.6
+
+### Removed
+
+- NPM requirement from package.json
+
+---
+
 ## [v1.2.0](https://github.com/jdhillen/vue-template/releases/tag/1.2.0) - 2023-05-15
 
 ### Update
