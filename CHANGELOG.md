@@ -4,6 +4,17 @@
 
 ---
 
+## [v1.2.2](https://github.com/jdhillen/vue-template/releases/tag/1.2.2) - 2023-07-05
+
+### Update
+
+- version => v1.2.2
+- pinia => v2.1.4
+- vue-router => v4.2.3
+- sass => v1.63.6
+
+---
+
 ## [v1.2.1](https://github.com/jdhillen/vue-template/releases/tag/1.2.1) - 2023-06-12
 
 ### Update
