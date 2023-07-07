@@ -2,11 +2,30 @@
 // ---- Main ----
 // =================================================================================================
 
-// ==|== Vendor Imports ============================================================================
-@import 'vendor/reset';
-@import 'vendor/skeleton';
+// ==|== Abstracts =================================================================================
+@import 'abstracts/variables';
+@import 'abstracts/colors';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/breakpoints';
 
-// ==|== Custom Imports ============================================================================
-@import 'colors';
-@import 'typography';
-@import 'global';
+// ==|== Base ======================================================================================
+@import 'base/reset';
+@import 'base/fonts';
+@import 'base/global';
+
+// ==|== Components ================================================================================
+@import 'components/typography';
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/lists';
+
+// ==|== Layouts ===================================================================================
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+
+
+
+@import 'skeleton';
