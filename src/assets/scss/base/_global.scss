@@ -43,11 +43,6 @@ main {
   flex-direction: column;
 }
 
-// ==|== Disable Click Events ======================================================================
-.disable-click {
-  pointer-events: none;
-  cursor: default;
-}
 
 // ==|== Disable Tap Highlight======================================================================
 * {

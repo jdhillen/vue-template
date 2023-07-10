@@ -2,7 +2,6 @@
 // ---- Buttons ----
 // =================================================================================================
 
-// ==|== Buttons and Inputs ========================================================================
 .button,
 button,
 input[type='submit'],
@@ -25,6 +24,7 @@ input[type='button'] {
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box;
+  margin-bottom: 1rem;
 
   &:hover,
   &:focus {
