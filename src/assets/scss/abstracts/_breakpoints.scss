@@ -1,0 +1,52 @@
+// =================================================================================================
+// ---- Breakpoints ----
+// =================================================================================================
+
+// ==|== Variables =================================================================================
+$breakpoint-xs: 480px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 1024px;
+$breakpoint-lg: 1200px;
+$breakpoint-xl: 1350px;
+$breakpoint-xxl: 1440px;
+$breakpoint-xxxl: 1824px;
+
+/* Main mobile cutoff and demarcation between desktop and mobile sizes */
+$breakpoint-mobile-demarcation: $breakpoint-sm;
+
+/* Max width for responsive elements before they center horizontally */
+$breakpoint-max-width: $breakpoint-lg;
+
+// ==|== Map =======================================================================================
+$breakpoints: (
+  'xs'       : $breakpoint-xs,
+  'sm'       : $breakpoint-sm,
+  'md'       : $breakpoint-md,
+  'lg'       : $breakpoint-lg,
+  'xl'       : $breakpoint-xl,
+  'xxl'      : $breakpoint-xxl,
+  'xxxl'     : $breakpoint-xxxl,
+  'standard' : $breakpoint-mobile-demarcation
+);
+
+// ==|== Mixin =====================================================================================
+/*
+ * This is the preferred way of creating responsive breakpoints. This forces a
+ * mobile-first approach. Example usage:
+ *
+ * @include breakpoint(md) {
+ *   margin: 0 auto;
+ *   max-width: 940px;
+ * }
+ */
+ @mixin breakpoint ($point) {
+  @if map-has-key($breakpoints, $point) {
+    // Prints a media query based on the value
+    @media screen and (min-width: map-get($breakpoints, $point)) {
+      @content;
+    }
+  }
+  @else { // If the key doesn't exist in the map
+    @warn '`#{$point}` is not defined in the `$breakpoints` map.';
+  }
+}

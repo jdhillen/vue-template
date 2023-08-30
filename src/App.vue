@@ -23,6 +23,5 @@ import SiteFooter from '@/components/SiteFooter.vue';
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 </style>

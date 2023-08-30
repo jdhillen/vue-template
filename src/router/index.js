@@ -14,6 +14,11 @@ const routes = [
     component: () => import('@/views/AboutPage.vue')
   },
   {
+    path: '/style-guide',
+    name: 'StyleGuide',
+    component: () => import('@/views/StyleGuidePage.vue')
+  },
+  {
     path: '/:catchAll(.*)',
     component: () => import('@/views/ErrorPage.vue')
   }

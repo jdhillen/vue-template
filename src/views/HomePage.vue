@@ -28,5 +28,6 @@ const title = import.meta.env.VITE_APP_TITLE;
 <!--|== CSS ==================================================================================== -->
 <style lang="scss" scoped>
 .home {
+  text-align: center;
 }
 </style>

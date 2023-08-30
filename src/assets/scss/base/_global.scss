@@ -14,9 +14,19 @@ body {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  font-family: 'Open Sans Regular';
-  font-size: 14px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans Regular', Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
   font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $black;
   @extend .smooth;
 }
 
@@ -33,16 +43,6 @@ main {
   flex-direction: column;
 }
 
-a {
-  color: #42b983;
-  text-decoration: none;
-}
-
-// ==|== Disable Click Events ======================================================================
-.disable-click {
-  pointer-events: none;
-  cursor: default;
-}
 
 // ==|== Disable Tap Highlight======================================================================
 * {
