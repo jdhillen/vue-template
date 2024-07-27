@@ -17,6 +17,7 @@
 - @vue/compiler-sfc => v3.4.34
 - sass => v1.77.8
 - vite => v5.3.5
+- node => >=20.0.0
 
 ---
 

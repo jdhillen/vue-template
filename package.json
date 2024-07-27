@@ -1,8 +1,8 @@
 {
   "name": "vue-template",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "engines": {
-    "node": ">=18.16.0"
+    "node": ">=20.0.0"
   },
   "scripts": {
     "dev": "vite",
