@@ -6,8 +6,8 @@
 
 ### Requirements
 
-- [Node.js](https://nodejs.org/en/) - v18.16.0
-- [npm](https://www.npmjs.com/) - v9.6.4
+- [Node.js](https://nodejs.org/en/) - v20.0.0+
+- [npm](https://www.npmjs.com/) - v10.0.0+
 
 ---
 
