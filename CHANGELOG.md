@@ -19,6 +19,10 @@
 - vite => v5.3.5
 - node => >=20.0.0
 
+### Added
+
+- vite-plugin-vue-devtools => v7.3.7
+
 ---
 
 ## [v1.3.1](https://github.com/jdhillen/vue-template/releases/tag/1.3.1) - 2024-04-26
