@@ -2,7 +2,7 @@
 import { defineStore } from 'pinia';
 
 // ==|== Store =====================================================================================
-export const useDefaultStore = defineStore('default', {
+export const useGlobalStore = defineStore('global', {
   // ==|== State ===================================================================================
   state: () => {
     return {

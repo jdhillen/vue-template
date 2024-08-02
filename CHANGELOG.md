@@ -4,6 +4,27 @@
 
 ---
 
+## [v1.3.3](https://github.com/jdhillen/vue-template/releases/tag/1.3.3) - 2024-08-02
+
+### Update
+
+- version bump => v1.3.3
+- axios => v1.7.3
+- vue => v3.4.35
+- vue-router => v4.4.2
+- @vitejs/plugin-vue => v5.1.2
+- @vue/compiler-sfc => v3.4.35
+- Renamed DefaultStore to global
+- Renamed prettier scripts in package.json
+- Fixed issue with Services example when calling an external API
+
+### Added
+
+- jsconfig.json for path aliasing completion in VSCode
+- "type": "module" in package.json
+
+---
+
 ## [v1.3.2](https://github.com/jdhillen/vue-template/releases/tag/1.3.2) - 2024-07-27
 
 ### Update

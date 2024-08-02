@@ -2,8 +2,7 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import vueDevTools from 'vite-plugin-vue-devtools'
-
-const path = require('path');
+import path from 'path';
 
 // ==|== Config ====================================================================================
 export default defineConfig({
