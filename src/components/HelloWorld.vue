@@ -15,8 +15,8 @@
         >Vue 3 Documentation</a
       >
     </p>
-    <button @click="store.increment()">Count: {{ store.count }}</button>
-    <p>Double: {{ store.doubleCount }}</p>
+    <button @click="globalStore.increment()">Count: {{ globalStore.count }}</button>
+    <p>Double: {{ globalStore.doubleCount }}</p>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test hot module replacement.
@@ -26,10 +26,10 @@
 
 <!--|== Scripts ================================================================================ -->
 <script setup>
-import { useDefaultStore } from '@/store/DefaultStore';
-import Service from '@/services';
+import { useGlobalStore } from '@/store/global';
+import Services from '@/services';
 
-const store = useDefaultStore();
+const globalStore = useGlobalStore();
 
 const props = defineProps({
   msg: {
@@ -40,8 +40,8 @@ const props = defineProps({
 });
 
 // Example of a Service to make an API call
-Service.getContact().then((response) => {
-  console.log(response.data);
+Services.getPokemon().then((res) => {
+  console.log(res.data);
 });
 </script>
 

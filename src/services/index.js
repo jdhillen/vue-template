@@ -3,8 +3,8 @@ import axios from 'axios';
 
 // ==|== Axios Client ==============================================================================
 const apiClient = axios.create({
-  baseURL: `https://www.jdhillen.io/api`,
-  withCredentials: false, // This is the default
+  baseURL: `https://pokeapi.co/api/v2`,
+  withCredentials: false,
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json'
@@ -14,7 +14,7 @@ const apiClient = axios.create({
 
 // ==|== Export ====================================================================================
 export default {
-  getContact() {
-    return apiClient.get('/resume/contact/1/');
+  getPokemon() {
+    return apiClient.get('/pokemon/ditto');
   }
 };
