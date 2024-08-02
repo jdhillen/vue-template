@@ -23,10 +23,6 @@
 - jsconfig.json for path aliasing completion in VSCode
 - "type": "module" in package.json
 
-### Removed
-
-- Example Services API call
-
 ---
 
 ## [v1.3.2](https://github.com/jdhillen/vue-template/releases/tag/1.3.2) - 2024-07-27
