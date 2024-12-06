@@ -4,6 +4,28 @@
 
 ---
 
+## [v1.3.4](https://github.com/jdhillen/vue-template/releases/tag/1.3.4) - 2024-12-06
+
+### Update
+
+- version bump => v1.3.4
+- axios => v1.7.3
+- pinia => v2.3.0
+- vue => v3.5.13
+- vue-router => v4.5.0
+- @vitejs/plugin-vue => v5.2.1
+- @vue/compiler-sfc => v3.5.13
+- sass => v1.82.0
+- vite => v6.0.3
+- vite-plugin-vue-devtools => v7.6.7
+
+
+### Fixed
+
+- package-lock.json file to read just from NPM
+
+---
+
 ## [v1.3.3](https://github.com/jdhillen/vue-template/releases/tag/1.3.3) - 2024-08-02
 
 ### Update
