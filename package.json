@@ -15,8 +15,14 @@
     "test:watch": "vitest --watch",
     "lint": "eslint . --ext .vue,.js,.ts",
     "lint:fix": "eslint . --ext .vue,.js,.ts --fix",
+    "stylelint": "stylelint \"**/*.{css,scss,vue}\" --max-warnings=0",
+    "stylelint:fix": "stylelint \"**/*.{css,scss,vue}\" --fix",
     "prettier": "npx prettier --check .",
-    "prettier:write": "npx prettier --write ."
+    "prettier:write": "npx prettier --write .",
+    "prettier:fix": "prettier --write .",
+    "commit": "cz",
+    "release": "semantic-release",
+    "release:dry-run": "semantic-release --dry-run"
   },
   "dependencies": {
     "axios": "^1.11.0",
@@ -25,19 +31,27 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.32.0",
+    "@jdhillen/eslint-config": "^2.0.4",
+    "@jdhillen/release-config": "^2.0.0",
+    "@jdhillen/stylelint-config": "^2.0.1",
     "@types/node": "^24.2.0",
-    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitejs/plugin-vue": "^5.2.4",
     "@vue/compiler-sfc": "^3.5.18",
     "@vue/test-utils": "^2.4.6",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^9.32.0",
-    "eslint-plugin-vue": "^10.4.0",
     "happy-dom": "^18.0.1",
     "sass": "^1.82.0",
     "typescript": "^5.9.2",
-    "vite": "^6.0.3",
-    "vite-plugin-vue-devtools": "^7.6.7",
+    "vite": "^6.3.5",
+    "vite-plugin-vue-devtools": "^7.7.7",
     "vitest": "^3.2.4",
     "vue-tsc": "^3.0.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

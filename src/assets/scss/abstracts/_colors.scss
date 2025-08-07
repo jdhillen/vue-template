@@ -2,9 +2,11 @@
 // ---- Colors ----
 // =================================================================================================
 
+@use 'sass:color';
+
 // ==|== Variables =================================================================================
-$white: #ffffff;
-$black: #000000;
+$white: #fff;
+$black: #000;
 
 // ==|== Helper Functions ==========================================================================
 @function black($opacity) {
@@ -16,9 +18,9 @@ $black: #000000;
 }
 
 @function tint($color, $percentage) {
-  @return mix($white, $color, $percentage);
+  @return color.mix($white, $color, $percentage);
 }
 
 @function shade($color, $percentage) {
-  @return mix($black, $color, $percentage);
+  @return color.mix($black, $color, $percentage);
 }

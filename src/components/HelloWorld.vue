@@ -11,7 +11,10 @@
         Vite Documentation
       </a>
       |
-      <a href="https://v3.vuejs.org/" target="_blank" rel="noopener"
+      <a
+        href="https://v3.vuejs.org/"
+        target="_blank"
+        rel="noopener"
         >Vue 3 Documentation</a
       >
     </p>
@@ -26,24 +29,24 @@
 
 <!--|== Scripts ================================================================================ -->
 <script setup>
-import { useGlobalStore } from '@/store/global';
-import Services from '@/services';
+  import Services from '@/services';
+  import { useGlobalStore } from '@/store/global';
 
-const globalStore = useGlobalStore();
+  const globalStore = useGlobalStore();
 
-// eslint-disable-next-line no-unused-vars
-const props = defineProps({
-  msg: {
-    type: String,
-    required: false,
-    default: 'Hello There!'
-  }
-});
+  defineProps({
+    msg: {
+      type: String,
+      required: false,
+      default: 'Hello There!'
+    }
+  });
 
-// Example of a Service to make an API call
-Services.getPokemon().then((res) => {
-  console.log(res.data);
-});
+  // Example of a Service to make an API call
+  Services.getPokemon().then((res) => {
+    // eslint-disable-next-line no-undef
+    console.warn('Pokemon API response:', res.data);
+  });
 </script>
 
 <!--|== CSS ==================================================================================== -->

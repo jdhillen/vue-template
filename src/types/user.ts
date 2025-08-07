@@ -3,18 +3,18 @@
 // =================================================================================================
 
 export interface User {
-  id: number
-  name: string
-  email: string
-  avatar?: string
-  createdAt: string
-  updatedAt: string
+  id: number;
+  name: string;
+  email: string;
+  avatar?: string;
+  createdAt: string;
+  updatedAt: string;
 }
 
 export interface UserPreferences {
-  theme: Theme
-  language: string
-  notifications: boolean
+  theme: Theme;
+  language: string;
+  notifications: boolean;
 }
 
-export type Theme = 'light' | 'dark' | 'auto'
+export type Theme = 'light' | 'dark' | 'auto';

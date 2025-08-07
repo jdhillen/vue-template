@@ -3,40 +3,40 @@
 // =================================================================================================
 
 // ==|== Form Elements =============================================================================
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea,
-select {
+%form-element {
+  box-sizing: border-box;
   padding: 0.75rem;
   margin-bottom: 1rem;
   font-size: 1rem;
+  background-color: white;
   border: 1px solid #d1d1d1;
   border-radius: 4px;
-  background-color: white;
-  box-sizing: border-box;
   transition: border-color 0.3s ease;
 
   &:focus {
-    border-color: #0066cc;
     outline: 0;
+    border-color: #06c;
   }
 }
 
-// ==|== Full Width ================================================================================
-input[type="email"],
-input[type="number"],
-input[type="search"], 
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea {
+input[type='email'],
+input[type='number'],
+input[type='search'],
+input[type='text'],
+input[type='tel'],
+input[type='url'],
+input[type='password'] {
+  @extend %form-element;
   width: 100%;
+}
+
+textarea {
+  @extend %form-element;
+  width: 100%;
+}
+
+select {
+  @extend %form-element;
 }
 
 // ==|== Labels =====================================================================================

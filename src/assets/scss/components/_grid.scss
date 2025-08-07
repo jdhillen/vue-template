@@ -6,11 +6,11 @@
 
 // ==|== Container =================================================================================
 .container {
+  box-sizing: border-box;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 // ==|== Grid System ==============================================================================
@@ -22,30 +22,42 @@
 
 .column,
 .columns {
+  box-sizing: border-box;
   flex: 1;
   padding: 0 10px;
-  box-sizing: border-box;
 }
 
 // ==|== Column Sizes ==============================================================================
 .one.column,
-.one.columns { flex: 0 0 8.33333%; }
-.two.columns { flex: 0 0 16.66667%; }
-.three.columns { flex: 0 0 25%; }
-.four.columns { flex: 0 0 33.33333%; }
-.six.columns { flex: 0 0 50%; }
-.twelve.columns { flex: 0 0 100%; }
+.one.columns {
+  flex: 0 0 8.3333%;
+}
+.two.columns {
+  flex: 0 0 16.6667%;
+}
+.three.columns {
+  flex: 0 0 25%;
+}
+.four.columns {
+  flex: 0 0 33.3333%;
+}
+.six.columns {
+  flex: 0 0 50%;
+}
+.twelve.columns {
+  flex: 0 0 100%;
+}
 
 // ==|== Responsive ===============================================================================
 @include breakpoint('sm') {
   .container {
     padding: 0 40px;
   }
-  
+
   .row {
     margin: 0 -20px;
   }
-  
+
   .column,
   .columns {
     padding: 0 20px;

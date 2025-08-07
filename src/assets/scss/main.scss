@@ -5,7 +5,6 @@
 // ==|== Abstracts (available globally and internally) ============================================
 @use 'abstracts/colors' as *;
 @use 'abstracts/breakpoints' as *;
-
 @forward 'abstracts/colors';
 @forward 'abstracts/breakpoints';
 

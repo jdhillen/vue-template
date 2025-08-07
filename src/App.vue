@@ -11,17 +11,17 @@
 
 <!--|== Scripts ================================================================================ -->
 <script setup>
-import SiteHeader from '@/components/SiteHeader.vue';
-import SiteFooter from '@/components/SiteFooter.vue';
+  import SiteFooter from '@/components/SiteFooter.vue';
+  import SiteHeader from '@/components/SiteHeader.vue';
 </script>
 
 <!--|== CSS ==================================================================================== -->
 <style lang="scss">
-.app {
-  flex: 1;
-  height: auto !important;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
+  .app {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: auto !important;
+    min-height: 100%;
+  }
 </style>

@@ -5,9 +5,9 @@
 @use 'sass:map';
 
 // ==|== Variables =================================================================================
-$breakpoint-sm: 768px;   // Tablet
-$breakpoint-lg: 1024px;  // Desktop
-$breakpoint-xl: 1200px;  // Large desktop
+$breakpoint-sm: 768px; // Tablet
+$breakpoint-lg: 1024px; // Desktop
+$breakpoint-xl: 1200px; // Large desktop
 
 // ==|== Map =======================================================================================
 $breakpoints: (
@@ -22,8 +22,7 @@ $breakpoints: (
     @media screen and (min-width: map.get($breakpoints, $point)) {
       @content;
     }
-  }
-  @else {
+  } @else {
     @warn '`#{$point}` is not defined in the `$breakpoints` map.';
   }
 }
