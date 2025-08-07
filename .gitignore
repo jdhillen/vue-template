@@ -9,3 +9,6 @@ dist-ssr
 .env.local
 .env.*.local
 .vscode
+
+# Claude Code instructions
+CLAUDE.md
