@@ -31,6 +31,7 @@ import Services from '@/services';
 
 const globalStore = useGlobalStore();
 
+// eslint-disable-next-line no-unused-vars
 const props = defineProps({
   msg: {
     type: String,
