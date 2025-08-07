@@ -1,3 +1,23 @@
+# 1.0.0 (2025-08-07)
+
+### Bug Fixes
+
+- comment out API call and unused import in HelloWorld
+  ([819a8ee](https://github.com/jdhillen/vue-template/commit/819a8eecf739fb10729322bdc5110f2787088daf))
+- disable npm publishing in semantic-release config
+  ([f09223e](https://github.com/jdhillen/vue-template/commit/f09223ebfdd70ea65c4aa2b5d9a949ee691d8ac9))
+
+### Features
+
+- add comprehensive features list to README
+  ([a37bcd2](https://github.com/jdhillen/vue-template/commit/a37bcd23f99e082529b979bb57c56e6516647665))
+- add GitHub Actions workflow for automated releases
+  ([172fa9d](https://github.com/jdhillen/vue-template/commit/172fa9ddc768a86b18108ba0c490ee898e958af9))
+- add husky pre-commit and pre-push hooks
+  ([e4db379](https://github.com/jdhillen/vue-template/commit/e4db3792fa4658f09dd849e107d36ccd08fe73ba))
+- implement custom config packages and update dependencies
+  ([b198e9e](https://github.com/jdhillen/vue-template/commit/b198e9e42326b78c5279fe35710a78814b16c2c1))
+
 # [Vue Template](https://github.com/jdhillen/vue-template) - CHANGELOG
 
 > All notable changes to this project will be documented in this file.
