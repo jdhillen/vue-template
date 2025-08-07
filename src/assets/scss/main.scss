@@ -2,31 +2,19 @@
 // ---- Main ----
 // =================================================================================================
 
-// ==|== Abstracts =================================================================================
-@import 'abstracts/variables';
-@import 'abstracts/colors';
-@import 'abstracts/functions';
-@import 'abstracts/mixins';
-@import 'abstracts/breakpoints';
+// ==|== Abstracts (available globally and internally) ============================================
+@use 'abstracts/colors' as *;
+@use 'abstracts/breakpoints' as *;
+@forward 'abstracts/colors';
+@forward 'abstracts/breakpoints';
 
 // ==|== Base ======================================================================================
-@import 'base/reset';
-@import 'base/fonts';
-@import 'base/global';
+@use 'base/reset';
+@use 'base/fonts';
+@use 'base/global';
 
 // ==|== Components ================================================================================
-@import 'components/typography';
-@import 'components/buttons';
-@import 'components/forms';
-@import 'components/lists';
-@import 'components/tables';
-@import 'components/code';
-@import 'components/rules';
-@import 'components/utilities';
-
-// ==|== Layouts ===================================================================================
-@import 'layout/grid';
-@import 'layout/spacing';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/sidebar';
+@use 'components/grid';
+@use 'components/typography';
+@use 'components/buttons';
+@use 'components/forms';

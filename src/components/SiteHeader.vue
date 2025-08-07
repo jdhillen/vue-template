@@ -11,15 +11,15 @@
 
 <!--|== CSS ==================================================================================== -->
 <style lang="scss">
-.nav {
-  width: 100%;
-  height: 50px;
-  background-color: $white;
-  color: $black;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
-}
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+    color: $black;
+    background-color: $white;
+  }
 </style>

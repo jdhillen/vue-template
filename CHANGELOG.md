@@ -19,7 +19,6 @@
 - vite => v6.0.3
 - vite-plugin-vue-devtools => v7.6.7
 
-
 ### Fixed
 
 - package-lock.json file to read just from NPM
